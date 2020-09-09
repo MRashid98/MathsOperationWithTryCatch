@@ -30,6 +30,9 @@ public class Operations {
 			System.out.println("Catching exception from nftbe class");
 			nftbe.printStackTrace();
 			return 0;
+		} catch (RuntimeException rte) {
+			System.out.println("Runtime Exception");
+			return 0;
 		}
 	}
 
